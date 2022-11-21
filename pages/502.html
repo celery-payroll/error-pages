@@ -83,6 +83,12 @@
                 border: none;
                 line-height: 1.2em;
             }
+
+            .cloudflare-message {
+                color: #ddd;
+                margin-left: 150px;
+                margin-top: 10px;
+            }
         </style>
     </head>
     <body class="">
@@ -96,7 +102,9 @@
                         <img class="error-speech" src="https://shelter.celerypayroll.com/images/cashman-speech.png" />
                         <h1 class="error-code">Infrastructure unavailable...</h1>
                         <h2 class="error-description">It looks like the application infrastructure is temporarily unavailable, please come back in a couple of minutes.</h2>
-                        <p>::CLOUDFLARE_ERROR_500S_BOX::</p>
+                    </section>
+                    <section>
+                        <p class="cloudflare-message">::CLOUDFLARE_ERROR_500S_BOX::</p>
                     </section>
                 </section>
             </section>
