@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="nl">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+        <title>5xx — Oh, noooooo</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                font-size: 14px;
+                line-height: 20px;
+                color: #333333;
+                background-color: #F1F1F1;
+            }
+
+            #main {
+                position: absolute;
+                top: 0;
+                right: 15px;
+                bottom: 0;
+                left: 15px;
+                padding: 0;
+            }
+
+            .error-content {
+                max-width: 680px;
+                margin: 0 auto;
+                padding: 0;
+                display: table;
+                height: 100%;
+            }
+
+            .error-details {
+                display: table-cell;
+                vertical-align: middle;
+            }
+
+            .error-image {
+                display: inline-block;
+                vertical-align: middle;
+                width: 130px;
+                height: 150px;
+            }
+
+            .error-message {
+                position: relative;
+                top: -5px;
+                display: inline-block;
+                vertical-align: middle;
+                margin-left: 10px;
+                max-width: 470px;
+                background-color: #8DC63F;
+                padding: 20px;
+                border-radius: 20px;
+            }
+
+            .error-speech {
+                margin-left: -63px;
+                position: absolute;
+                top: 50px;
+            }
+
+            .error-code {
+                margin: 0;
+                font-size: 3.8em;
+                line-height: 1.0em;
+                color: #FFFFFF;
+                margin-bottom: 15px;
+            }
+
+            .error-description {
+                margin: 0;
+                padding: 0;
+                font-weight: 300;
+                font-size: 1.4em;
+                color: #FFFFFF;
+                border: none;
+                line-height: 1.2em;
+            }
+        </style>
+    </head>
+    <body class="">
+        <div role="main" id="main">
+            <section class="error-content">
+                <section class="error-details">
+                    <figure class="error-image">
+                        <img src="https://shelter.celerypayroll.com/images/cashman-clean.png" width="100" />
+                    </figure>
+                    <section class="error-message">
+                        <img class="error-speech" src="https://shelter.celerypayroll.com/images/cashman-speech.png" />
+                        <h1 class="error-code">Infrastructure unavailable...</h1>
+                        <h2 class="error-description">It looks like the application infrastructure is temporarily unavailable, please come back in a couple of minutes.</h2>
+                        <p>::CLOUDFLARE_ERROR_500S_BOX::</p>
+                    </section>
+                </section>
+            </section>
+        </div>
+    </body>
+</html>
